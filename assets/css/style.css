@@ -26,7 +26,7 @@ header {
     background: #ffffff;
     border-color: #cccccc;
     margin-bottom: 3px;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #4aaaa5;
 }
 
 footer {
@@ -44,6 +44,9 @@ footer {
     left: 0;
 }
 
+a {
+    color: inherit;
+}
 h1 {
     padding: 20px;
     margin-left: 50px;
