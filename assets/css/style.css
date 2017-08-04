@@ -17,7 +17,8 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #777777;
-    background: #efeee7;
+
+    background-image: url('../images/whirlpool/whirlpool.png');
     overflow: auto;
 }
 
@@ -46,6 +47,10 @@ footer {
 
 a {
     color: inherit;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
 }
 h1 {
     padding: 20px;
@@ -91,38 +96,34 @@ h3 {
     left: -240px;
 }
 
-.caption-left-top {
-    top:280px;
-    left: 90px;
-}
 
 .caption-left-top {
-    top:280px;
+    top:290px;
     left: 90px;
 }
 
 .caption-right-top {
-    top:280px;
+    top:290px;
     left: 390px;
 }
 
 .caption-left-middle {
-    top:490px;
+    top:510px;
     left: 90px;
 }
 
 .caption-right-middle {
-    top:490px;
+    top:510px;
     left: 390px;
 }
 
 .caption-left-bottom {
-    top:700px;
+    top:730px;
     left: 90px;
 }
 
 .caption-right-bottom {
-    top:700px;
+    top:730px;
     left: 390px;
 }
 
@@ -138,8 +139,6 @@ h4 {
     width: 200px;
 }
 
-.container {}
-
 .main-bio,
 .contact-info,
 .bio-image,
@@ -150,34 +149,37 @@ h4 {
     background-color: #ffffff;
 }
 
-.bio-text {}
-
 .main-bio {
     width: 600px;
     padding: 10px;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 49px;
+    border: 1px solid #dddddd;
 }
 
 .contact-me {
     width: 600px;
     padding: 10px;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 49px;
+    border: 1px solid #dddddd;
 }
 
 .portfolio {
     width: 600px;
     padding: 10px;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 49px;
+    border: 1px solid #dddddd;
 }
 
 .contact-info {
     width: 173px;
     padding: 10px;
-    margin-left: 20px
+    margin-left: 20px;
+    border: 1px solid #dddddd;
 }
+
 
 .bio-image {
     width: 200px;
@@ -224,7 +226,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .portfolio-image-left {
