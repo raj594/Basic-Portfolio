@@ -54,7 +54,7 @@ a {
 }
 h1 {
     padding: 20px;
-    margin-left: 39px;
+    margin-left: 20px;
     margin-top: 11px;
     font-size: 28px;
     color: #ffffff;
@@ -90,41 +90,34 @@ h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.caption {
-    position: relative;
-    top: 100px;
-    left: -240px;
-}
-
-
 .caption-left-top {
     top:290px;
-    left:80px;
+    left:61px;
 }
 
 .caption-right-top {
     top:290px;
-    left: 362px;
+    left: 372px;
 }
 
 .caption-left-middle {
     top:510px;
-    left: 80px;
+    left: 61px;
 }
 
 .caption-right-middle {
     top:510px;
-    left: 362px;
+    left: 372px;
 }
 
 .caption-left-bottom {
     top:730px;
-    left: 80px;
+    left: 61px;
 }
 
 .caption-right-bottom {
     top:730px;
-    left: 362px;
+    left: 372px;
 }
 
 h4 {
@@ -135,7 +128,7 @@ h4 {
     text-align: center;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 198px;
+    width: 217px;
     float: left;
 }
 
@@ -152,18 +145,19 @@ h4 {
 .main-bio,
 .contact-me,
 .portfolio {
-    width: 580px;
+    width: 628px;
     padding: 10px;
     font-size: 14px;
-    margin-left: 39px;
-    margin-right: 9px;
+    margin-left: 20px;
+    margin-right: 0px;  
     border: 1px solid #dddddd;
 }
 
 .contact-info {
-    width: 175px;
+    width: 238px;
     padding: 15px;
-    margin-left: 45px;
+    margin-left: 20px;
+    margin-right: 0;
     border: 1px solid #dddddd;
 }
 
@@ -176,22 +170,23 @@ h4 {
 
 .github-image {
     margin: 5px;
-    width:44px;
-    height:44px;
+    width:60px;
+    height:60px;
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .linkedin-image {
     margin: 5px;
     margin-top: 15px;
-    width:44px;
-    height:44px;
+    width:60px;
+    height:60px;
 }
 
 .stackoverflow-image {
     margin: 5px;
-    width:44px;
-    height:44px;
+    width:60px;
+    height:60px;
     margin-top: 15px;
 }
 
