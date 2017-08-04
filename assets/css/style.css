@@ -39,7 +39,7 @@ footer {
     color: lightgray;
     border-top: 5px solid #4aaaa5;
     font-size: 8px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
@@ -54,7 +54,7 @@ a {
 }
 h1 {
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 39px;
     margin-top: 11px;
     font-size: 28px;
     color: #ffffff;
@@ -99,32 +99,32 @@ h3 {
 
 .caption-left-top {
     top:290px;
-    left: 90px;
+    left:80px;
 }
 
 .caption-right-top {
     top:290px;
-    left: 390px;
+    left: 362px;
 }
 
 .caption-left-middle {
     top:510px;
-    left: 90px;
+    left: 80px;
 }
 
 .caption-right-middle {
     top:510px;
-    left: 390px;
+    left: 362px;
 }
 
 .caption-left-bottom {
     top:730px;
-    left: 90px;
+    left: 80px;
 }
 
 .caption-right-bottom {
     top:730px;
-    left: 390px;
+    left: 362px;
 }
 
 h4 {
@@ -133,10 +133,10 @@ h4 {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    float: left;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 200px;
+    width: 198px;
+    float: left;
 }
 
 .main-bio,
@@ -149,34 +149,21 @@ h4 {
     background-color: #ffffff;
 }
 
-.main-bio {
-    width: 600px;
-    padding: 10px;
-    font-size: 14px;
-    margin-left: 49px;
-    border: 1px solid #dddddd;
-}
-
-.contact-me {
-    width: 600px;
-    padding: 10px;
-    font-size: 14px;
-    margin-left: 49px;
-    border: 1px solid #dddddd;
-}
-
+.main-bio,
+.contact-me,
 .portfolio {
-    width: 600px;
+    width: 580px;
     padding: 10px;
     font-size: 14px;
-    margin-left: 49px;
+    margin-left: 39px;
+    margin-right: 9px;
     border: 1px solid #dddddd;
 }
 
 .contact-info {
-    width: 173px;
-    padding: 10px;
-    margin-left: 20px;
+    width: 175px;
+    padding: 15px;
+    margin-left: 45px;
     border: 1px solid #dddddd;
 }
 
@@ -208,13 +195,10 @@ h4 {
     margin-top: 15px;
 }
 
+.emailinput,
 .nameinput {
-    color: lightgrey;
     width: 98%;
-}
-
-.emailinput {
-    width: 98%;
+    color: #777777;
 }
 
 .messageinput {
@@ -223,22 +207,24 @@ h4 {
     display: inline-block;
     height: 50px;
     max-width: 98%;
+    width: 98%;
 }
 
 .portfolio-row {
-    margin-top: 30px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
 }
 
 .portfolio-image-left {
     height: 190px;
-    width: 40%;
+    width: 41%;
     float: left;
     margin-left: 30px;
 }
 
 .portfolio-image-right {
     height: 190px;
-    width: 40%;
+    width: 41%;
     float: right;
     margin-right: 30px;
 }
